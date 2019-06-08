@@ -62,14 +62,44 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
 p {
     line-height: 1.4;
 }
+
+/* code begins */
+
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* HEADER */
+
+header { 
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav a {
+    padding: 40px;
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: red;
+    background: peachpuff;
+    border: 1px solid #000 !important;
+}
+
+.header-img {
+    margin-bottom: 20px;
+}
+/* TOP CONTENT */
 
 .top-content {
     display: flex;
@@ -84,6 +114,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/* MIDDLE CONTENT */
 
 .middle-content {
     margin-bottom: 20px;
@@ -110,7 +143,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+
+
+/* BOTTOM CONTENT */
+
 
 .bottom-content {
     display: flex;
@@ -126,9 +165,13 @@ p {
     padding-right: 0;
 }
 
+/* FOOTER */
+
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 footer nav {
@@ -143,4 +186,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE */
+
+button {
+    width: 120px;
+    padding: 10px;
+    border-radius: 13px;
+    border-color: black;
+    background: white;
+}
+
+
+button:hover {
+  background: peachpuff;
+  color: red;
+}
+.about-img{
+    margin-bottom: 20px;
+}
+
+.top-about{ 
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.box-container {
+    border-top: 1px dashed #000 !important;
+    margin-top: 20px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-container .box1 { 
+	background: white; 
+	width: 365px;
+	background: whitesmoke;
+	margin: 20px 0px 40px 5px;
+    padding: 0px;
+    border-bottom: 1px dashed #000 !important;
+}
+
+.box-container .box2 { 
+	background: white; 
+	width: 365px;
+	background: whitesmoke;
+	margin: 20px 0px 40px 5px;
+    padding: 0px;
+    border-bottom: 1px dashed #000 !important;
+}
+
+.box-container .box3 { 
+	background: white; 
+	width: 365px;
+	background: whitesmoke;
+	margin: 20px 0px 40px 5px;
+    padding: 0px;
+    border-bottom: 1px dashed #000 !important;
+}
+
+.box-container .box4 { 
+	background: white; 
+	width: 365px;
+	background: whitesmoke;
+	margin: 20px 0 40px 5px;
+    padding: 0px;
+    border-bottom: 1px dashed #000 !important;
+} 
+
+.about-bottom {
+    margin-left: 20px;
 }

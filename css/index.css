@@ -86,6 +86,8 @@ header {
 header nav a {
     padding: 40px;
     background: white;
+    text-decoration: none;
+    color: black;
 }
 
 .header-img {
@@ -183,9 +185,9 @@ footer nav a {
 /* ABOUT PAGE */
 
 button {
-    width: 100px;
-    padding: 5px;
-    border-radius: 5px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 13px;
     border-color: black;
     background: white;
 }
@@ -202,12 +204,16 @@ button {
     align-items: center;
 }
 
+.box-container img {
+    max-width:100%;
+    max-height:100%;
+}
 .box-container {
     border-top: 1px dashed #000 !important;
+    margin-top: 20px;
     width: 800px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly; 
     justify-content: space-around;
 }
 
@@ -215,8 +221,8 @@ button {
 	background: white; 
 	width: 390px;
 	background: whitesmoke;
-	margin: 0px 10px 40px 5px;
-    padding: 20px;
+	margin: 20px 10px 40px 5px;
+    padding: 0px;
     border-bottom: 1px dashed #000 !important;
 }
 
@@ -224,8 +230,8 @@ button {
 	background: white; 
 	width: 390px;
 	background: whitesmoke;
-	margin: 0px 0px 40px 5px;
-    padding: 20px;
+	margin: 20px 0px 40px 5px;
+    padding: 0px;
     border-bottom: 1px dashed #000 !important;
 }
 
@@ -237,8 +243,8 @@ button {
 	background: white; 
 	width: 390px;
 	background: whitesmoke;
-	margin: 0px 0px 40px 5px;
-    padding: 20px;
+	margin: 20px 0px 40px 5px;
+    padding: 0px;
     border-bottom: 1px dashed #000 !important;
 }
 
@@ -246,8 +252,8 @@ button {
 	background: white; 
 	width: 390px;
 	background: whitesmoke;
-	margin: 0px 0 40px 5px;
-    padding: 20px;
+	margin: 20px 0 40px 5px;
+    padding: 0px;
     border-bottom: 1px dashed #000 !important;
 } 
 

@@ -62,14 +62,38 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
 p {
     line-height: 1.4;
 }
+
+/* code begins */
+
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* HEADER */
+
+header { 
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+header nav a {
+    padding: 40px;
+    background: white;
+}
+
+.header-img {
+    margin-bottom: 50px;
+}
+/* TOP CONTENT */
 
 .top-content {
     display: flex;
@@ -84,6 +108,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/* MIDDLE CONTENT */
 
 .middle-content {
     margin-bottom: 20px;
@@ -110,7 +137,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+
+
+/* BOTTOM CONTENT */
+
 
 .bottom-content {
     display: flex;
@@ -125,6 +158,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* FOOTER */
 
 footer {
     width: 100%;
